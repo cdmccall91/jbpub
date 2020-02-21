@@ -34,7 +34,7 @@
 
 .nav-link {
   color: #b29f6e !important;
-   text-shadow: .04em .04em .04em #000;
+   text-shadow: .04em .04em .04em white;
    font-size: 4vh;
 }
 
@@ -102,6 +102,15 @@ p {
 }
 
 
+
+
+
+
+.start-shit {
+  margin-top: 2vh;
+}
+
+
 .accordion-container {
   margin-top: 1vh;
 
@@ -109,30 +118,37 @@ p {
 
 .accordion {
   border: none;
+    text-shadow: .02em .02em .02em #000;
 }
 
 .btn-link {
   font-size: 3.5vh;
   font-family: "Days One", sans-serif !important;
   color: #2c63a4 !important;
+  text-shadow: .02em .02em .02em #000;
 }
 
 .bard {
   text-align: center;
   margin-bottom: -1.5vh;
+    text-shadow: .02em .02em .02em #000;
+
 }
 
 .card-body>p {
   font-size: 2.5vh;
-  color: black !important;
+  color: #2c63a4 !important;
   text-align: center;
+  text-shadow: .02em .02em .02em #000;
+
 }
 
 h4 {
   text-align: center;
   font-size: 3vh;
-  color: #b29f6e !important;
+  color: #9bc1e2 !important;
   text-decoration: underline;
+    text-shadow: .02em .02em .02em #000;
   margin-bottom: 2vh;
   margin-top: -1vh;
 }
@@ -146,3 +162,10 @@ h4 {
 .salads {
   margin-top: -2vh;
 }
+
+#side-info {
+  font-size: 2vh;
+  margin-top: -3vh;
+  color: #b29f6e !important;
+}
+
