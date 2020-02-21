@@ -1,0 +1,148 @@
+
+#pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+#logo-image {
+    border-radius: 8px;
+}
+
+.burger-button {
+  background-color: #b29f6e !important;
+  border-radius: 8px;
+  
+}
+
+
+
+.navbar {
+  font-size: 10vw;
+  background-color: #2c63a4 !important;
+  padding: 1.5vh;
+
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-link {
+  color: #b29f6e !important;
+   text-shadow: .04em .04em .04em #000;
+   font-size: 4vh;
+}
+
+* {
+  font-family: "Days One", sans-serif !important;
+}
+
+#home-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 4vh;
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  color: #2c63a4 !important;
+  text-shadow: .02em .02em .02em #000;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: 3vh;
+  color: red !important;
+  margin-top: -1.5vh;
+  text-shadow: .02em .02em .02em #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #2c63a4;
+}
+
+.call-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -1vh;
+  margin-bottom: 1vh;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.hours>h2 {
+  font-size: 3vh;
+  color: red;
+}
+
+.hours>h6 {
+  color: black;
+}
+
+#map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.accordion-container {
+  margin-top: 1vh;
+
+  }
+
+.accordion {
+  border: none;
+}
+
+.btn-link {
+  font-size: 3.5vh;
+  font-family: "Days One", sans-serif !important;
+  color: #2c63a4 !important;
+}
+
+.bard {
+  text-align: center;
+  margin-bottom: -1.5vh;
+}
+
+.card-body>p {
+  font-size: 2.5vh;
+  color: black !important;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-size: 3vh;
+  color: #b29f6e !important;
+  text-decoration: underline;
+  margin-bottom: 2vh;
+  margin-top: -1vh;
+}
+
+
+
+.top-title {
+  margin-top: -3vh;
+}
+
+.salads {
+  margin-top: -2vh;
+}
