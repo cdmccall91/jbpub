@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 
 #pic-container {
   display: flex;
@@ -12,8 +17,7 @@
 
 .burger-button {
   background-color: #b29f6e !important;
-  border-radius: 8px;
-  
+  border-radius: 8px;  
 }
 
 
@@ -66,6 +70,18 @@ p {
   text-shadow: .02em .02em .02em #000;
 }
 
+#owned-container {
+  display: flex;
+  justify-content: center;
+}
+
+#owned {
+  text-align: center;
+  margin-top: -2.6vh;
+  width: 25vh;
+  display: flex;
+}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -100,11 +116,14 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2vh;
 }
 
 
 
 
+
+/*beginning of menu pages*/
 
 
 .start-shit {
@@ -119,7 +138,7 @@ p {
 
 .accordion {
   border: none;
-    text-shadow: .02em .02em .02em #000;
+  text-shadow: .02em .02em .02em #000;
 }
 
 .btn-link {
@@ -133,7 +152,6 @@ p {
   text-align: center;
   margin-bottom: -1.5vh;
     text-shadow: .02em .02em .02em #000;
-
 }
 
 .card-body>p {
@@ -170,3 +188,26 @@ h4 {
   color: #b29f6e !important;
 }
 
+.special-dinner {
+color: #b29f6e !important;
+}
+
+
+/*movie page*/
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
